@@ -1,0 +1,9 @@
+APE Project Properties:
+Title: quake-like
+Started On: 2/28/11
+Summary: 
+Thoughts:
+
+What we liked: 
+What we hated: 
+What we have learned: 
