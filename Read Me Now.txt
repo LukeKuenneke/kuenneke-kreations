@@ -1,3 +1,2 @@
-I'm writing something in this document.
 I'm adding this line.
-
+I deleted the first line :)
