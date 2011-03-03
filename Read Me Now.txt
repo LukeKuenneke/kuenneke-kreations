@@ -1,2 +1,5 @@
-I'm adding this line.
-I deleted the first line :)
+Workflow:
+
+1. SVN Update
+2. Export the trunk
+3. Work on file(s)
