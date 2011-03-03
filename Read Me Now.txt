@@ -3,3 +3,61 @@ Workflow:
 1. SVN Update
 2. Export the trunk
 3. Work on file(s)
+4. Find the files that you've changed (Scenes, Textures, Music, Whatever)
+5. Move those into your branch.
+6. Commit the changes
+7. If you feel that your changes are to a point where they an be merged into the main trunk, request a code review.
+8. Not every commit requires a code review! Live in your space until you WANT to contribute your work, then request the review.
+9. If approved, your work will be merged into the trunk.
+
+Self-Policing is the ONLY way we will keep organized.
+
+Directory Structure:
+
+branches - Each user will have a working directory for their game objects.
+           Objects will be committed the branch first!!! When you think your
+		   code is ready, request a code review, we will review it, upon a 
+		   good review, we will merge it into the main trunk.
+		   
+tags - This is for "tagging out" code that is ready for prime time stable-ish
+	   alpha, beta, and release quality code is tagged out. "Release Quality"
+	   is anything we would let our users play.
+
+trunk/src - The big cheese. This is where our main production code lives, it
+			it doesn't have to be pretty, but it does need to be usable.
+			(Unusable / in-progress code should live in a branch until ready
+			for prime-time).
+			
+	 /notes - Production notes, put anything here, links to sources, cool tips,
+			  thoughts, game play ideas, whatever.
+			  
+	 /APE# - An APE project that contains all the resources necessary to compile
+			 our game. There is another directory in here titled "Project Notes",
+			 you should use this directory to specify notes about that particular
+			 APE project. The directory also contains an "About.txt" file, which
+			 contains all the details of that particular APE project.
+			 
+APE: Accelerated Prototyping Engine
+
+The APE style of game development will allow us to throw all kinds of ideas around in a very small amount of time.
+We develop something, test it, release it to users, if they like it, we keep at it, if they hate it, we move on. Simple as that.
+I would like for only one APE project to be active at a time, but it is a realistic expectation that there may be a few active
+at a time.
+
+The default lifetime of an APE project is ONE MONTH. At that time, a decision must be made. The decision types are as follows:
+
+APE-ALIVE = Project Lives for another month while we continue to test it. We will declare another APE-ALIVE, VIABLE, or APE-ESCAPE in a month.
+APE-ESCAPE = Project dies, we move onto the next APE project.
+VIABLE = We declare this project as a viable main project. Project no longer has a "Sudden Death" lifetime, but lives until we kill it.
+		 A VIABLE project has graduated to the level of our main project. We should only have one VIABLE status project at a time.
+		 APE projects will cease (but not die, they will pause instead) while development efforts are focused on the main project.
+		 
+Releasing Prototype Builds:
+
+On occasion, we will release a prototype APE for users to test and experiment with. These will be packaged nicely and live on the Downloads
+page of the Google Code repository. The best case would be an installable file, but if not, we an include a ZIP and instructions.
+Users CAN download our in-progress work, that is the very basis of our repository, but we should only release when we really want to say,
+
+"This is good enough to play."
+
+May The Force be with you.
