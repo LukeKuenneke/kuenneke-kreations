@@ -1,8 +1,8 @@
 APE Project Properties:
-Title: quake-like
-Started On: 2/28/11
-Summary: 
-Thoughts:
+Title: foreordination
+Started On: 3/4/2011
+Summary: Simple doom-like game to test our abilities.
+Thoughts: Must not suck.
 
 What we liked: 
 What we hated: 
