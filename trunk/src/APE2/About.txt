@@ -1,9 +1,0 @@
-APE Project Properties:
-Title: Ricochet Source
-Started On: 4/29/2011
-Summary: Bring ricochet to the source engine.
-Thoughts: Simplistic gameplay/graphics/engine will be easier to work with.
-
-What we liked: 
-What we hated: 
-What we have learned: 
