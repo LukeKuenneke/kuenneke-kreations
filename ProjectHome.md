@@ -1,0 +1,1 @@
+This project is for the rapid development and testing of new game ideas for Kuenneke Kreations. New game ideas are being testing here rapidly. Creative, different ideas will be birthed here and could go on to become a full game. Very few will make it to that point, this project is designed to find which games are worth the time.
